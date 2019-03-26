@@ -1,0 +1,2 @@
+insert into t_job_step_comparison (ID, STEP_CODE, STEP_NAME, SCHEDULED_TIME, NOTIFIER, NICKNAME, NOTIFIER_PHONE_NUM, STATUS, CREATOR_ID, CREATED_TIME, UPDATER_ID, UPDATED_TIME)
+values (seq_t_job_step_comparison.nextval, 28, 'AI 智能语音跑批', 300, 'chengchunhao', '程春澔', '18610755298', 'N ', 1, sysdate, 1, sysdate);
